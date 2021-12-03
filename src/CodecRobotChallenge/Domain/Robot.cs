@@ -9,11 +9,11 @@ namespace CodecRobotChallenge.Domain
         public long PositionX { get; private set; }
         public long PositionY { get; private set; }
 
-        public Robot()
+        public Robot(long initialX = 1, long initialY = 1, RobotDirection initialDirection = RobotDirection.North)
         {
-            CurrentDirection = RobotDirection.North;
-            PositionX = 1;
-            PositionY = 1;
+            CurrentDirection = initialDirection;
+            PositionX = initialX;
+            PositionY = initialY;
         }
 
         public void Move(ITerrain terrain)
