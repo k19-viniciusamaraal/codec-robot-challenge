@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodecRobotChallenge", "src\CodecRobotChallenge\CodecRobotChallenge.csproj", "{03B39E46-ED4B-45FC-9ABF-5B51EF80C1C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CCDC072B-99C6-42E3-AA65-60D7BB41DD30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{96B515D6-7C29-4278-A115-10CB93EB60CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03B39E46-ED4B-45FC-9ABF-5B51EF80C1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B39E46-ED4B-45FC-9ABF-5B51EF80C1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B39E46-ED4B-45FC-9ABF-5B51EF80C1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B39E46-ED4B-45FC-9ABF-5B51EF80C1C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03B39E46-ED4B-45FC-9ABF-5B51EF80C1C6} = {CCDC072B-99C6-42E3-AA65-60D7BB41DD30}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CC7B23E-7B5B-49B5-BBEE-255E65E9AE57}
+	EndGlobalSection
+EndGlobal
