@@ -3,7 +3,7 @@ using System;
 
 namespace CodecRobotChallenge.Domain
 {
-    public class Robot : IRobot 
+    public class Robot : IRobot
     {
         public RobotDirection CurrentDirection { get; private set; }
         public long PositionX { get; private set; }
@@ -42,10 +42,7 @@ namespace CodecRobotChallenge.Domain
 
         public void Turn(RobotMovement moveTo)
         {
-            if (moveTo == RobotMovement.Left)
-                CurrentDirection = CurrentDirection.GetPrevious();
-            else
-                CurrentDirection = CurrentDirection.GetNext();
+            CurrentDirection = moveTo == RobotMovement.Left ? CurrentDirection.GetPrevious() : CurrentDirection.GetNext();
         }
     }
 }
